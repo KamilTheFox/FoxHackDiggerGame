@@ -14,7 +14,7 @@ using Dithering;
 
 public class PixelArt : IHackMenu, IGenerate
 {
-    public string Name => nameof(PixelArt);
+    public string Name => "PixelArt";
 
     public Action<int> Menu => MainMenu;
 

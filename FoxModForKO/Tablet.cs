@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 internal class Tablet : IHackMenu
 {
-    public string Name => nameof(Tablet);
+    public string Name => "Tablet";
 
     public Action<int> Menu => MenuTablet;
     

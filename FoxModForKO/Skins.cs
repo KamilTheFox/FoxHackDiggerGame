@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class Skins : IHackMenu
 {
-    public string Name => nameof(Skins);
+    public string Name => "Skins";
     private float scrollSkin;
 
     private readonly List<string> NameSkin = new List<string>()

@@ -12,7 +12,7 @@ using GUIF;
 
 public class Permissions : IHackMenu, IStarted, IUpdate
 {
-    public string Name => nameof(Permissions);
+    public string Name => "Permissions";
     private string playerNameNew;
 
     private bool isSetPermissionsUpdate;

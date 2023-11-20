@@ -7,7 +7,7 @@ using UnityEngine;
 
 class Chunks : IHackMenu
 {
-    public string Name => nameof(Chunks);
+    public string Name => "Chunks";
 
     private MyIntVect SizeChunk, CountBlockChunk;
 

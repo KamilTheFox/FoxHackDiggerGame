@@ -11,7 +11,7 @@ using EntityType = BEDOMOKJJMN;
 
 public class Entity : IHackMenu, IUpdate, IStarted, IGUIElement
 {
-    public string Name => nameof(Entity);
+    public string Name => "Entity";
     private EntityType entityType = EntityType.ATOMBOMB;
     private float Scroll;
     private bool isSetEntity, isDNDEntity;
